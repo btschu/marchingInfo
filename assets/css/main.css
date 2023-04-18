@@ -2269,8 +2269,14 @@ input, select, textarea {
 		margin: 0;
 	}
 
-		img {
-			max-width: 450px;
+		#copyright img {
+			width: 450px;
+		}
+
+		@media screen and (max-width: 768px) {
+			#copyright img {
+				width: 250px;
+			}
 		}
 
 		#copyright ul.links {
