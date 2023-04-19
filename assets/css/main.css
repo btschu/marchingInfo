@@ -1526,9 +1526,9 @@ input, select, textarea {
 
 /* Section/Article */
 
-	section, article {
+	/* section, article {
 		margin-bottom: 2.5em;
-	}
+	} */
 
 		section > :last-child, section:last-child, article > :last-child, article:last-child {
 			margin-bottom: 0;
@@ -1542,7 +1542,7 @@ input, select, textarea {
 			display: block;
 			font-style: italic;
 			margin: 0.5em 0 0 0;
-			padding-bottom: 0.5em;
+			/* padding-bottom: 0.5em; */
 		}
 
 		header.major {
@@ -2204,7 +2204,7 @@ input, select, textarea {
 	#main {
 		position: relative;
 		background: #f7f7f7 url("images/bg02.png");
-		padding: 4em 0 4em 0;
+		padding: 2.5em 0 4em 0;
 	}
 
 		#main:before {
